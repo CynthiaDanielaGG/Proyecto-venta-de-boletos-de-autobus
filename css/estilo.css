@@ -1,0 +1,258 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -background-size: cover;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    /*Color del texto*/
+    color: #FFFFFF;
+}   
+
+.centrarTituloDiv {
+    position: relative;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    background: #B0C4DE;
+}
+
+.centrarTituloParrafo {
+    font-size: 20pt;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.centrarDiv {
+    margin: 20px auto auto auto;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+.cajaFondo{
+    position: relative;
+    /*right: 10px;*/
+    /*top: 50px;*/
+    /* border: 2px solid #FFFFFF;*/
+    width: 1350px;
+    height: 400px;
+    background: #70B9FE;
+    /* padding: 0px 0px 50px 0px;*/
+    /*margin: 10px auto 10px auto;*/
+}
+
+.cajaMenu{
+    width: 1350px;
+    height: 70px;
+    background: #2C568E;
+}
+
+.cajaFormulario{
+    margin: auto auto auto 0px;
+    position: relative;
+    left: 160px;
+    top: -290px;
+    width: 390px;
+    height: 320px;
+    background: #FFFFFF;
+    opacity: 15;
+}
+.cajaImagenes1{
+    margin: auto auto auto 0px;
+    position: relative;
+    top: -215px;
+    width: 1350px;
+    height: 387px;
+    background: #CCD1D1;
+    opacity: 15;
+}
+.cajaImagenes{
+    margin: auto auto auto 0px;
+    position: relative;
+    top: -170px;
+    width: 1350px;
+    height: 321px;
+    background: #FFFFFF;
+    opacity: 15;
+}
+
+.cajaFormAutobus{
+    margin: auto;
+    position: relative;
+   /* top: -60px;*/
+    width: 500px;
+    height: 450px;
+    background: #2E86C1;
+}
+
+.cajaImagenes3{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 40px;
+    width: 1350px;
+    height: 300px;
+    /*background: #CCD1D1;*/
+}
+
+.cajaFondoTipoS{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+input {
+    border-radius: 4px;
+}
+
+select {
+    width: 150px;
+}
+
+.inputCapacidad {
+    width: 150px;
+}
+
+.inputClave {
+    width: 120px;
+}
+
+.inputClaveB {
+    width: 50px;
+}
+
+.imgInicio {
+    float: right;
+}
+.cajaFondoTipoS2{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.cajaFondoAutobus{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 0px;
+    width: 1350px;
+    height: 600px;
+     background-image: url("../imagenes/autobus2.jpg");
+    /*background: #CCD1D1;*/
+}
+
+.cajaFondoCiudad{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 0px;
+    width: 1350px;
+    height: 600px;
+     background-image: url("../imagenes/compra.jpg");
+    /*background: #CCD1D1;*/
+}
+
+.cajaFondoCorrida{
+    margin: auto auto 0px 0px;
+    position: relative;
+    top: 0px;
+    width: 1350px;
+    height: 600px;
+     background-image: url("../imagenes/atardecer.jpg");
+    /*background: #CCD1D1;*/
+}
+
+.tableFondo {
+    position: relative;/*Esto es lo que te faltaba y quite el top: 90;*/
+    top: 90px;
+    color: #000000;
+    background: #B0C4DE;
+   /* background: #797D7F;*/
+    text-align: center;
+    left: 250px;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.tableFondo2 {
+    position: relative;/*Esto es lo que te faltaba y quite el top: 90;*/
+    top: 110px;
+    color: #000000;
+    background: #B0C4DE;
+    /*background: #797D7F;*/
+    text-align: center;
+    left: 110px;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.tableFondo3 {
+    position: relative;/*Esto es lo que te faltaba y quite el top: 90;*/
+    top: 50px;
+    color: #000000;
+    background: #B0C4DE;
+    /*background: #797D7F;*/
+    text-align: center;
+    left: 110px;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+/*PROPIEDADES DEL MENU*/
+#header {
+				margin:auto;
+				width:100px;
+				font-family:Arial, Helvetica, sans-serif;
+                float: right;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:right;
+			}
+			
+			.nav li a {
+				background-color:#2C568E;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+           .nav li a:hover {
+				background-color:#2C568E;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+                left: 1200px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
